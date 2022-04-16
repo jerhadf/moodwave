@@ -4,6 +4,9 @@ import { Container, Header, Label, Icon, Segment, Select, Form, Radio } from 'se
 import config from "./config";
 import TwitterLogin from "../../dist";
 
+// twitter component from below: 
+// https://github.com/Patrokl42/react-twitter-oauth
+
 export default class ExaplePage extends React.Component {
   constructor(props, context) {
     super(props, context);
